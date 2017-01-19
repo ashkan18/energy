@@ -28,9 +28,11 @@ dependencies:
   cache_directories:
     - vendor/bundle
     - Pods
+  post:
+    - echo "hi"
 
 test:
   override:
-    - echo "hi"
+    - echo "ok"
   post:
     - make deploy_if_beta_branch

@@ -124,6 +124,25 @@ lane :setup_for_app_store do
     FileUtils.mkdir_p(profile_path)
   end
 
+  app_project = "Artsy Folio.xcodeproj"
+
+  update_project_codesigning(
+    path: app_project,
+    use_automatic_signing: false
+  )
+
+  update_project_provisioning(
+    xcodeproj: app_project,
+    profile: "fastlane/#{profile}",
+    target_filter: 'ArtsyFolio',
+    build_configuration: 'Release'
+  )
+
+  update_project_team(
+    path: app_project,
+    teamid: "23KMWZ572J"
+  )
+
   # Migrate it in
   FileUtils.copy profile, destination
   puts "Installed Profile"
