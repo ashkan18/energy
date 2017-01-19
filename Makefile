@@ -58,12 +58,14 @@ deploy_if_beta_branch:
 	if [ "$(LOCAL_BRANCH)" == "beta" ]; then make install_fastlane; bundle exec fastlane beta; fi
 
 install_fastlane:
-	bundle update fastlane pilot gym deliver
+	bundle update fastlane
 	bundle install --with deployment
 
 deploy:
 	git push origin "$(LOCAL_BRANCH):beta"
 	open "https://circleci.com/gh/artsy/energy/tree/beta"
+beta: deploy
+
 
 LOCAL_BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 BRANCH = $(shell echo $(shell whoami)-$(shell git rev-parse --abbrev-ref HEAD))
