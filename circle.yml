@@ -1,6 +1,6 @@
 machine:
   xcode:
-    version: "8.2"
+    version: "7.3"
 
   environment:
     # Public - Ace
@@ -34,12 +34,5 @@ dependencies:
 test:
   override:
     - echo "ok"
-
-deployment:
-  beta_distribution:
-    branch: master
-    commands:
-      - "bundle update fastlane"
-      - "bundle install --with deployment"
-      - "bundle exec fastlane beta"
-
+  post:
+    - make deploy_if_beta_branch

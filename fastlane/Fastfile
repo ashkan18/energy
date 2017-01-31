@@ -125,6 +125,11 @@ lane :setup_for_app_store do
 
   app_project = "ArtsyFolio.xcodeproj"
 
+  update_project_team(
+    path: app_project,
+    teamid: "23KMWZ572J"
+  )
+
   update_project_codesigning(
     path: app_project,
     use_automatic_signing: false
@@ -135,11 +140,6 @@ lane :setup_for_app_store do
     profile: "fastlane/#{profile}",
     target_filter: 'ArtsyFolio',
     build_configuration: 'Release'
-  )
-
-  update_project_team(
-    path: app_project,
-    teamid: "23KMWZ572J"
   )
 
   # Migrate it in
