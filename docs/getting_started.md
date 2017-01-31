@@ -43,7 +43,7 @@ And if you're setting up as an Open Source contributor, run this:
 $ make oss
 ```
 
-Finally open `Artsy Folio.xcworkspace` and hit Command-R to build and run in the
+Finally open `ArtsyFolio.xcworkspace` and hit Command-R to build and run in the
 simulator.
 
 ## Running Tests

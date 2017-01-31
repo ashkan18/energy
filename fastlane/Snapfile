@@ -21,7 +21,7 @@ js_file './config/snapshots/snapshot.js'
 
 # The name of the project's scheme
 scheme 'ArtsyFolio'
-project_path './Artsy Folio.xcworkspace'
+project_path './ArtsyFolio.xcworkspace'
 
 # Custom Callbacks
 

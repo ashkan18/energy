@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D8D208AB141405A500A823E3"
                BuildableName = "Artsy Folio.app"
                BlueprintName = "ArtsyFolio"
-               ReferencedContainer = "container:Artsy Folio.xcodeproj">
+               ReferencedContainer = "container:ArtsyFolio.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "D8D208AB141405A500A823E3"
                BuildableName = "Artsy Folio.app"
                BlueprintName = "ArtsyFolio"
-               ReferencedContainer = "container:Artsy Folio.xcodeproj">
+               ReferencedContainer = "container:ArtsyFolio.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "B37F165D183EEA71007A7023"
                BuildableName = "ArtsyFolio Tests.xctest"
                BlueprintName = "ArtsyFolio Tests"
-               ReferencedContainer = "container:Artsy Folio.xcodeproj">
+               ReferencedContainer = "container:ArtsyFolio.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,7 +59,7 @@
             BlueprintIdentifier = "D8D208AB141405A500A823E3"
             BuildableName = "Artsy Folio.app"
             BlueprintName = "ArtsyFolio"
-            ReferencedContainer = "container:Artsy Folio.xcodeproj">
+            ReferencedContainer = "container:ArtsyFolio.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "D8D208AB141405A500A823E3"
             BuildableName = "Artsy Folio.app"
             BlueprintName = "ArtsyFolio"
-            ReferencedContainer = "container:Artsy Folio.xcodeproj">
+            ReferencedContainer = "container:ArtsyFolio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -111,7 +111,7 @@
             BlueprintIdentifier = "D8D208AB141405A500A823E3"
             BuildableName = "Artsy Folio.app"
             BlueprintName = "ArtsyFolio"
-            ReferencedContainer = "container:Artsy Folio.xcodeproj">
+            ReferencedContainer = "container:ArtsyFolio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

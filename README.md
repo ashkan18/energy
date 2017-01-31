@@ -32,7 +32,7 @@ Want to get the app running as an OSS project? Run this in your shell:
 git clone https://github.com/artsy/energy.git
 cd energy
 make oss
-open "Artsy Folio.xcworkspace"
+open "ArtsyFolio.xcworkspace"
 ```
 
 You will have a running version of the Artsy app by hitting `Build > Run`.

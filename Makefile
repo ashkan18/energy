@@ -28,7 +28,7 @@ ci_keys:
 
 ### Xcode tooling
 
-WORKSPACE = "Artsy Folio.xcworkspace"
+WORKSPACE = "ArtsyFolio.xcworkspace"
 SCHEME = ArtsyFolio
 CONFIGURATION = Debug
 DEVICE_HOST = platform='iOS Simulator',OS='8.4',name='iPad Retina'

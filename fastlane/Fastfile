@@ -35,7 +35,6 @@ lane :beta do
 
   latest_version = readme_data["upcoming"]["version"]
 
-  #increment_version_number release_task: latest_version, xcodeproj: './Artsy Folio.xcodeproj'
   `/usr/libexec/PlistBuddy -c "Set CFBundleShortVersionString #{latest_version}" "../Supporting Files/info.plist"`
 
   # Generate release notes from CHANGELOG
@@ -124,7 +123,7 @@ lane :setup_for_app_store do
     FileUtils.mkdir_p(profile_path)
   end
 
-  app_project = "Artsy Folio.xcodeproj"
+  app_project = "ArtsyFolio.xcodeproj"
 
   update_project_codesigning(
     path: app_project,
